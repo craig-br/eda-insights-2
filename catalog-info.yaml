@@ -4,7 +4,7 @@ metadata:
   name: eda-insights-2
   tags:
     - ansible
-    - ansible-playbook
+    - playbook
   annotations:
     github.com/project-slug: craig-br/eda-insights-2
 spec:
