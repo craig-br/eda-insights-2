@@ -1,0 +1,14 @@
+apiVersion: backstage.io/v1alpha1
+kind: Component
+metadata:
+  name: eda-insights-2
+  tags:
+    - ansible
+    - ansible-playbook
+  annotations:
+    github.com/project-slug: craig-br/eda-insights-2
+spec:
+  owner: user:default:craig-br
+  type: playbook-project
+  system: system:default/linux-systems
+  lifecycle: production
