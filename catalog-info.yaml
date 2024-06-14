@@ -2,9 +2,17 @@ apiVersion: backstage.io/v1alpha1
 kind: Component
 metadata:
   name: eda-insights-2
+  tags:
+    - ansible
+    - ansible-playbook
   annotations:
     github.com/project-slug: craig-br/eda-insights-2
+  links:
+    - url: https://devspaces.apps.y1a9e1j9r7y1i8l.cbm5.p1.openshiftapps.com/#https://github.com/parasol-dev/parasol-network-playbooks
+      title: Open in Ansible development workspaces
+      icon: web
 spec:
-  type: other
-  lifecycle: unknown
-  owner: craig-br
+  owner: user:default:craig-br
+  type: playbook-project
+  system: system:default/linux-systems
+  lifecycle: production
